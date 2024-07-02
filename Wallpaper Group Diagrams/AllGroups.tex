@@ -1,0 +1,60 @@
+\documentclass[class=article, crop=false]{standalone}
+%\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage{subcaption}
+\usetikzlibrary{calc}
+\usetikzlibrary {shapes.geometric}
+
+\begin{document}
+\begin{figure}
+    \centering
+    % Row 1
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p1}}
+        \caption{p1}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p2}}
+        \caption{p2}
+    \end{minipage}
+    \hfill
+    % Row 2
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p4g}}
+        \caption{p4g}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p4m}}
+        \caption{p4m}
+    \end{minipage}
+    % Row 3
+    \vfill
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p6}}
+        \caption{p6}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p6m}}
+        \caption{p6m}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.16\textwidth}
+        \centering
+        \scalebox{0.8}{\input{Wallpaper Group Diagrams/p31m}}
+        \caption{p31m}
+    \end{minipage}
+    
+    \caption{The 17 Wallpaper Groups}
+    \label{fig:17-wallpaper-groups}
+\end{figure}
+
+\end{document}
