@@ -11,3 +11,5 @@ Describing some of their symmetries and how these symetries lead to limited poss
 - The *Sources.bib* file contains all the sources for the presentation.
 - The *main.tex* file contains the main document.
 
+Quite intresting
+
